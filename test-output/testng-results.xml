@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1728" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:22 IST">
+  <suite name="Default suite" duration-ms="2954" started-at="2021-07-22T21:30:57 IST" finished-at="2021-07-22T21:31:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1728" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:22 IST">
+    <test name="Default test" duration-ms="2954" started-at="2021-07-22T21:30:57 IST" finished-at="2021-07-22T21:31:00 IST">
       <class name="com.qa.tests.GetAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="setUp" is-config="true" duration-ms="19" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:21 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="setUp" is-config="true" duration-ms="16" started-at="2021-07-22T21:30:57 IST" finished-at="2021-07-22T21:30:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="invokeGetMethod()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="invokeGetMethod" duration-ms="1615" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:22 IST">
+        <test-method status="PASS" signature="invokeGetMethodwithoutHeaders()[pri:1, instance:com.qa.tests.GetAPITest@76707e36]" name="invokeGetMethodwithoutHeaders" duration-ms="2299" started-at="2021-07-22T21:30:57 IST" finished-at="2021-07-22T21:31:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invokeGetMethod -->
+        </test-method> <!-- invokeGetMethodwithoutHeaders -->
+        <test-method status="PASS" signature="invokeGetMethodwithHeaders()[pri:2, instance:com.qa.tests.GetAPITest@76707e36]" name="invokeGetMethodwithHeaders" duration-ms="503" started-at="2021-07-22T21:31:00 IST" finished-at="2021-07-22T21:31:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeGetMethodwithHeaders -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-22T21:31:00 IST" finished-at="2021-07-22T21:31:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
       </class> <!-- com.qa.tests.GetAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

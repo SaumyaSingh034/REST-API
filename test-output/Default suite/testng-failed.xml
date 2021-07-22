@@ -5,8 +5,9 @@
     <classes>
       <class name="com.qa.tests.GetAPITest">
         <methods>
-          <include name="invokeGetMethod"/>
+          <include name="invokeGetMethodwithHeaders"/>
           <include name="setUp"/>
+          <include name="invokeGetMethodwithoutHeaders"/>
         </methods>
       </class> <!-- com.qa.tests.GetAPITest -->
     </classes>
