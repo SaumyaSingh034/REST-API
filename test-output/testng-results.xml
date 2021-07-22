@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2278" started-at="2021-07-22T13:52:43 IST" finished-at="2021-07-22T13:52:45 IST">
+  <suite name="Default suite" duration-ms="1728" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:22 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2278" started-at="2021-07-22T13:52:43 IST" finished-at="2021-07-22T13:52:45 IST">
+    <test name="Default test" duration-ms="1728" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:22 IST">
       <class name="com.qa.tests.GetAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="setUp" is-config="true" duration-ms="7" started-at="2021-07-22T13:52:43 IST" finished-at="2021-07-22T13:52:43 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="setUp" is-config="true" duration-ms="19" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="invokeGetMethod()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="invokeGetMethod" duration-ms="2193" started-at="2021-07-22T13:52:43 IST" finished-at="2021-07-22T13:52:45 IST">
+        <test-method status="PASS" signature="invokeGetMethod()[pri:0, instance:com.qa.tests.GetAPITest@76707e36]" name="invokeGetMethod" duration-ms="1615" started-at="2021-07-22T18:51:21 IST" finished-at="2021-07-22T18:51:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeGetMethod -->
